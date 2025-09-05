@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-bg">
+        <header class="app-header">
+            <div class="logo">🎬 MovieFinder</div>
+        </header>
+        <main class="main-content">
+            <form class="search-bar" id="searchForm" autocomplete="off">
+                <div class="search-input-wrapper">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Search for movies..." />
+                </div>
+                <button id="searchButton" type="submit">Search</button>
+            </form>
+            <div id="spinner" class="spinner" style="display:none;"></div>
+            <div id="errorMessage" class="error-message"></div>
+            <div id="results"></div>
+        </main>
+        <div id="movieModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <div id="modalDetails"></div>
+            </div>
+        </div>
+        <footer class="app-footer">
+            <p>&copy; 2025 MovieFinder. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
