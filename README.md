@@ -2,6 +2,8 @@
 
 A modern, responsive movie search application using the OMDb API. Search for movies, view details in a modal popup, add favorites, and enjoy a professional dark-themed UI.
 
+![App Screenshot](Output.png)
+
 ## Features
 - **Search movies** by title using the OMDb API
 - **Pagination** for browsing large result sets
@@ -26,6 +28,7 @@ A modern, responsive movie search application using the OMDb API. Search for mov
 index.html       # Main HTML file
 style.css        # App styling (dark, modern, responsive)
 script.js        # All app logic (search, modal, favorites, etc.)
+Output.png       # App screenshot
 ```
 
 ## Customization
